@@ -1,0 +1,24 @@
+.main img{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    filter: blur(2px);
+}
+.one img{
+    float: right;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    margin-top: -22%;  
+    margin-right: 58%;
+    filter: contrast(200%);
+}
+.two img{
+    float: right;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    margin-top: -22%;
+    margin-right: 38%;
+    filter: hue-rotate(45deg);
+}
+.forth img{
+   float: right;
+    transform: translate(570px,-300px);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    filter: saturate(20%);
+}
